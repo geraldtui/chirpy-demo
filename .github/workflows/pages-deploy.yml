@@ -52,7 +52,7 @@ jobs:
 
       - name: Test site
         run: |
-          cat_site/chirpy-demo/404.html
+          cat _site/chirpy-demo/404.html
           # bundle exec htmlproofer _site \
           #   \-\-disable-external \
           #   \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
